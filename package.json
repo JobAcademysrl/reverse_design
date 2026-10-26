@@ -1,0 +1,17 @@
+{
+  "name": "reverse-brand",
+  "version": "0.1.0",
+  "description": "Turn a public brand website into an unofficial, art-directed, token-driven brand guide.",
+  "bin": { "reverse-brand": "bin/reverse-brand.js" },
+  "type": "commonjs",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "verify": "node verify.js",
+    "serve-fixture": "node src/serve.js .."
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
