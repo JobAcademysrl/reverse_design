@@ -9,7 +9,7 @@ reverse-brand <url> [--images none|api|manual] [--provider fal|openai] [--import
 Requisiti: Node 20+, Google Chrome installato (in mancanza usa il Chromium di Playwright), `ffmpeg` e `ffprobe` nel PATH.
 
 ```
-cd reverse-brand
+git clone https://github.com/JobAcademysrl/reverse_design && cd reverse_design
 npm install
 node bin/reverse-brand.js https://example.com --images none
 node verify.js out/example.com
